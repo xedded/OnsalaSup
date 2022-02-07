@@ -4,7 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "npm run build",
+    "build": "ng build",
+    "build:prod": "npm run build",
     "build:ssr": "ng run OnsalaSup:server:dev",
     "test": "ng test",
     "lint": "ng lint",
